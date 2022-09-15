@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "+nDh9JTFVwjlMf+kGbj1l33Hp1ZtldGT+WwKSAzcWh7fRQsTcHr+PNTo9KmZRraCROAZ/oWXOpQn69PVsUKGtQ==",
+  "success": true,
+  "projectFilePath": "/Users/rexwb/Academic/Computing/C#/Shark Exercises/Chapter3.4.5/Chapter3.4.5.csproj",
+  "expectedPackageFiles": [
+    "/Users/rexwb/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.10/microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "/Users/rexwb/.nuget/packages/microsoft.netcore.app.host.osx-x64/3.1.29/microsoft.netcore.app.host.osx-x64.3.1.29.nupkg.sha512",
+    "/Users/rexwb/.nuget/packages/microsoft.netcore.app.ref/3.1.0/microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

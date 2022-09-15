@@ -1,0 +1,14 @@
+/Users/rexwb/Academic/Computing/C#/Shark Exercises/Chapter3.4.5/bin/Debug/netcoreapp3.1/Chapter3.4.5
+/Users/rexwb/Academic/Computing/C#/Shark Exercises/Chapter3.4.5/bin/Debug/netcoreapp3.1/Chapter3.4.5.deps.json
+/Users/rexwb/Academic/Computing/C#/Shark Exercises/Chapter3.4.5/bin/Debug/netcoreapp3.1/Chapter3.4.5.runtimeconfig.json
+/Users/rexwb/Academic/Computing/C#/Shark Exercises/Chapter3.4.5/bin/Debug/netcoreapp3.1/Chapter3.4.5.runtimeconfig.dev.json
+/Users/rexwb/Academic/Computing/C#/Shark Exercises/Chapter3.4.5/bin/Debug/netcoreapp3.1/Chapter3.4.5.dll
+/Users/rexwb/Academic/Computing/C#/Shark Exercises/Chapter3.4.5/bin/Debug/netcoreapp3.1/Chapter3.4.5.pdb
+/Users/rexwb/Academic/Computing/C#/Shark Exercises/Chapter3.4.5/obj/Debug/netcoreapp3.1/Chapter3.4.5.csproj.AssemblyReference.cache
+/Users/rexwb/Academic/Computing/C#/Shark Exercises/Chapter3.4.5/obj/Debug/netcoreapp3.1/Chapter3.4.5.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rexwb/Academic/Computing/C#/Shark Exercises/Chapter3.4.5/obj/Debug/netcoreapp3.1/Chapter3.4.5.AssemblyInfoInputs.cache
+/Users/rexwb/Academic/Computing/C#/Shark Exercises/Chapter3.4.5/obj/Debug/netcoreapp3.1/Chapter3.4.5.AssemblyInfo.cs
+/Users/rexwb/Academic/Computing/C#/Shark Exercises/Chapter3.4.5/obj/Debug/netcoreapp3.1/Chapter3.4.5.csproj.CoreCompileInputs.cache
+/Users/rexwb/Academic/Computing/C#/Shark Exercises/Chapter3.4.5/obj/Debug/netcoreapp3.1/Chapter3.4.5.dll
+/Users/rexwb/Academic/Computing/C#/Shark Exercises/Chapter3.4.5/obj/Debug/netcoreapp3.1/Chapter3.4.5.pdb
+/Users/rexwb/Academic/Computing/C#/Shark Exercises/Chapter3.4.5/obj/Debug/netcoreapp3.1/Chapter3.4.5.genruntimeconfig.cache
