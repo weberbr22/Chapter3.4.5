@@ -12,7 +12,7 @@ namespace Chapter3._4._5
 
         static bool processor(int n)
         {
-            return n % 5 && n % 7 == 0 ? true : false;
+            return n % 5 == 0 && n % 7 == 0 ? true : false;
         }
 
         static void Main(string[] args)
@@ -23,6 +23,8 @@ namespace Chapter3._4._5
             Console.WriteLine(even(x));
 
             Console.WriteLine(processor(p));
+
+            //test to see if this has worked on github
 
         }
     }
