@@ -50,6 +50,48 @@ namespace Chapter3._4._5
 
         }
 
+        static string MoonWeight()
+        {
+            Console.WriteLine("What is your Earth Weight");
+            int Carry = Int32.Parse(Console.ReadLine());
+            double Moon = Carry * 0.17;
+            string output = ("Your Moon Weight is: " + Moon);
+            return output;
+        }
+
+        static bool OnCircle()
+        {
+            Console.WriteLine("What is the X Point: ");
+            var x = Int32.Parse(Console.ReadLine());
+            Console.WriteLine("What is the Y Point: ");
+            var y = Int32.Parse(Console.ReadLine());
+            if (x * x + y * y == 25)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+
+        }
+
+        static bool InShapes()
+        {
+            Console.WriteLine("What is the X Point: ");
+            var x = Int32.Parse(Console.ReadLine());
+            Console.WriteLine("What is the Y Point: ");
+            var y = Int32.Parse(Console.ReadLine());
+            if (x * x + y * y < 25 && x<5 && x>-1 && y<5 && y > 1)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
         static void Main(string[] args)
         {
             Console.WriteLine("Hello Chapter 3!");
@@ -61,6 +103,9 @@ namespace Chapter3._4._5
             Console.WriteLine(Getbit(25));
             Console.WriteLine(Trapeziod(2, 3, 5));
             Console.WriteLine(Rectangle());
+            Console.WriteLine(MoonWeight());
+            Console.WriteLine(OnCircle());
+            Console.WriteLine(InShapes());
         }
     }
 }
