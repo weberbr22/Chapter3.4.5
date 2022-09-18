@@ -1,7 +1,8 @@
 ﻿using System;
 
-namespace Chapter3._4._5
+namespace Chapter
 {
+
     class Program
     {
 
@@ -82,7 +83,7 @@ namespace Chapter3._4._5
             var x = Int32.Parse(Console.ReadLine());
             Console.WriteLine("What is the Y Point: ");
             var y = Int32.Parse(Console.ReadLine());
-            if (x * x + y * y < 25 && x<5 && x>-1 && y<5 && y > 1)
+            if (x * x + y * y < 25 && x < 5 && x > -1 && y < 5 && y > 1)
             {
                 return true;
             }
@@ -90,6 +91,89 @@ namespace Chapter3._4._5
             {
                 return false;
             }
+        }
+        static int Sum()
+        {
+            Console.WriteLine("What is the first num: ");
+            var x = Int32.Parse(Console.ReadLine());
+            Console.WriteLine("What is the second num: ");
+            var y = Int32.Parse(Console.ReadLine());
+            Console.WriteLine("What is the third num: ");
+            var z = Int32.Parse(Console.ReadLine());
+            int Sum = x + y + z;
+            return Sum;
+        }
+
+        static string radius()
+        {
+            Console.WriteLine("What is the radius? ");
+            var radius = Int32.Parse(Console.ReadLine());
+            double area = (radius * radius) * Math.PI;
+            double peri = (radius * Math.PI);
+            string output = ("Area = " + area + " Perimeter = " + peri);
+            return output;
+        }
+
+        static void inbetween()
+        {
+            Console.WriteLine("What is the first num: ");
+            var x = Int32.Parse(Console.ReadLine());
+            Console.WriteLine("What is the second num: ");
+            var y = Int32.Parse(Console.ReadLine());
+            for (int i = 0; i < (y - x); i++)
+            {
+                if (i % 5 == 0)
+                {
+                    string e = Convert.ToString(i);
+                    Console.WriteLine(e);
+                    // I tried to make it work with a list
+                    // but it said my version of c# is too old
+                }
+                else
+                {
+                    //nothing
+                }
+
+            }
+        }
+        static string islarger()
+        {
+            Console.WriteLine("What is the first num: ");
+            var x = Int32.Parse(Console.ReadLine());
+            Console.WriteLine("What is the second num: ");
+            var y = Int32.Parse(Console.ReadLine());
+            string output;
+            if (x-y > 0)
+            {
+                output = ("The Larger Number is " + x);
+            }
+            else if (x - y < 0)
+            {
+                output = ("The Larger Number is " + y);
+            }
+            else
+            {
+                output = ("The Numbers are equal");
+            }
+            return output;
+        }
+        static string sum5()
+        {
+            Console.WriteLine("What is the first num: ");
+            var x = Int32.Parse(Console.ReadLine());
+            Console.WriteLine("What is the second num: ");
+            var y = Int32.Parse(Console.ReadLine());
+            Console.WriteLine("What is the third num: ");
+            var a = Int32.Parse(Console.ReadLine());
+            Console.WriteLine("What is the fourth num: ");
+            var b = Int32.Parse(Console.ReadLine());
+            Console.WriteLine("What is the fifth num: ");
+            var c = Int32.Parse(Console.ReadLine());
+
+            int total = x + y + a + b + c;
+            string output = Convert.ToString(total);
+
+            return output;
         }
 
         static void Main(string[] args)
@@ -106,6 +190,13 @@ namespace Chapter3._4._5
             Console.WriteLine(MoonWeight());
             Console.WriteLine(OnCircle());
             Console.WriteLine(InShapes());
+
+            Console.WriteLine("Hello Chapter 4!");
+            Console.WriteLine(Sum());
+            Console.WriteLine(radius());
+            inbetween();
+            Console.WriteLine(islarger());
+            Console.WriteLine(sum5());
         }
     }
 }
