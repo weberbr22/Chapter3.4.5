@@ -409,9 +409,6 @@ namespace Chapter
             Console.WriteLine(sort());
             Console.WriteLine(quadform());
             user_choice();
-            
-
-            
         }
     }
 }
